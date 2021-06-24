@@ -1,7 +1,7 @@
 import { removeDiacritics } from './removeDiacritics';
 
 /**
- * @collboard-modules-sdk
+ *
  */
 export function nameToUriPart(name: string): string {
     let uri = name;

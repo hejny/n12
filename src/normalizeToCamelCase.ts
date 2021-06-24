@@ -2,7 +2,7 @@
  *
  * TODO: Put this into some inpidendent library which do normalizing (there are things in Collboard+Czech.events)
  *
- * @collboard-modules-sdk
+ *
  */
 export function normalizeToCamelCase(
     name: string /* TODO: maybe semantic helper */,
@@ -35,7 +35,10 @@ export function normalizeToCamelCase(
             if (firstLetterCapital) {
                 normalizedChar = normalizedChar.toUpperCase(); //TODO: DRY
             }
-        } else if (charType !== lastCharType && !(charType === 'LOWERCASE' && lastCharType === 'UPPERCASE')) {
+        } else if (
+            charType !== lastCharType &&
+            !(charType === 'LOWERCASE' && lastCharType === 'UPPERCASE')
+        ) {
             normalizedChar = normalizedChar.toUpperCase(); //TODO: DRY
         }
 

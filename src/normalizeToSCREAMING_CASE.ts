@@ -12,7 +12,7 @@ expect(encodeRoutePath({ uriId: 'VtG7sR9rRJqwNEdM2', name: '  ahoj_ahojAhoj    a
 /**
  * TODO: Put this into some inpidendent library which do normalizing (there are things in Collboard+Czech.events)
  *
- * @collboard-modules-sdk
+ *
  */
 export function normalizeToSCREAMING_CASE(
     name: string /* TODO: maybe semantic helper */,
@@ -42,7 +42,10 @@ export function normalizeToSCREAMING_CASE(
             normalizedChar = '_';
         }
 
-        if (charType !== lastCharType && !(lastCharType === 'UPPERCASE' && charType === 'LOWERCASE')) {
+        if (
+            charType !== lastCharType &&
+            !(lastCharType === 'UPPERCASE' && charType === 'LOWERCASE')
+        ) {
             normalizedName += '_';
         }
 
