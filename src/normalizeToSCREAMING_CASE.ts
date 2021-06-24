@@ -9,11 +9,7 @@ expect(encodeRoutePath({ uriId: 'VtG7sR9rRJqwNEdM2', name: '  ahoj  ' })).toEqua
 expect(encodeRoutePath({ uriId: 'VtG7sR9rRJqwNEdM2', name: '  ahoj_ahojAhoj    ahoj  ' })).toEqual('/VtG7sR9rRJqwNEdM2/ahoj-ahoj-ahoj-ahoj');
 */
 
-/**
- * TODO: Put this into some inpidendent library which do normalizing (there are things in Collboard+Czech.events)
- *
- *
- */
+
 export function normalizeToSCREAMING_CASE(
     name: string /* TODO: maybe semantic helper */,
 ): string /* TODO: maybe semantic helper */ {

@@ -1,9 +1,4 @@
-/**
- *
- * TODO: Put this into some inpidendent library which do normalizing (there are things in Collboard+Czech.events)
- *
- *
- */
+
 export function normalizeToCamelCase(
     name: string /* TODO: maybe semantic helper */,
     // TODO: Options

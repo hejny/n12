@@ -1,12 +1,7 @@
 import { IKeywords } from './IKeywords';
 import { removeDiacritics } from './removeDiacritics';
 
-/**
- *
- * TODO: Put this into some inpidendent library which do normalizing (there are things in Collboard+Czech.events)
- *
- *
- */
+
 export function parseKeywords(input: any): IKeywords {
     if (typeof input === 'string') {
         return removeDiacritics(input)
