@@ -1,4 +1,4 @@
-import { removeDiacritics } from './removeDiacritics';
+import { removeDiacritics } from '../src/removeDiacritics';
 
 describe('how stripping of diacritics works', () => {
     it('can strip diacritics diacritics from lowercase', () => {

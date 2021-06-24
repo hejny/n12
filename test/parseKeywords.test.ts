@@ -1,4 +1,4 @@
-import { parseKeywords } from './parseKeywords';
+import { parseKeywords } from '../src/parseKeywords';
 
 /**
  * TODO: Put this into some inpidendent library which do normalizing (there are things in Collboard+Czech.events)

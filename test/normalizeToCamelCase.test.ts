@@ -1,4 +1,4 @@
-import { normalizeToCamelCase } from './normalizeToCamelCase';
+import { normalizeToCamelCase } from '../src/normalizeToCamelCase';
 
 describe('how normalizing to camelCase works', () => {
     it('can normalize one word', () => {

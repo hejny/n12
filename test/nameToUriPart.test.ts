@@ -1,4 +1,4 @@
-import { nameToUriPart } from './nameToUriPart';
+import { nameToUriPart } from '../src/nameToUriPart';
 
 describe('how converting name to part of URI works', () => {
     it('can convert simple name to part of URI', () => {

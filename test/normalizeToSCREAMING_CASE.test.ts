@@ -1,4 +1,4 @@
-import { normalizeToSCREAMING_CASE } from './normalizeToSCREAMING_CASE';
+import { normalizeToSCREAMING_CASE } from '../src/normalizeToSCREAMING_CASE';
 
 describe('how normalizing to SCREAMING_CASE works', () => {
     it('can normalize one word', () => {

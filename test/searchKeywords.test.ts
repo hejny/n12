@@ -1,4 +1,4 @@
-import { searchKeywords } from './searchKeywords';
+import { searchKeywords } from '../src/searchKeywords';
 
 describe('how searching through keywords works', () => {
     it('can search one keyword', () => {
