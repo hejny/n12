@@ -13,8 +13,9 @@ export function searchKeywords(
                 (haystackWord) =>
                     haystackWord.substring(0, needleWord.length) === needleWord,
             )
-        )
+        ) {
             return false;
+        }
     }
     return true;
 }
