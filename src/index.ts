@@ -1,6 +1,7 @@
 // 🏭 GENERATED WITH generate-main-exports
 // ⚠️ Warning: Do not edit by hand, all changes will be lost on next execution!
 
+import { string_keyword } from './IKeywords';
 import { IKeywords } from './IKeywords';
 import { nameToUriPart } from './nameToUriPart';
 import { normalizeToCamelCase } from './normalizeToCamelCase';
@@ -14,6 +15,7 @@ IKeywords,
 parseKeywords,
 nameToUriPart,
 searchKeywords,
+string_keyword,
 removeDiacritics,
 normalizeToCamelCase,
 normalizeToSCREAMING_CASE
