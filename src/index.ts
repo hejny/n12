@@ -1,6 +1,7 @@
 // 🏭 GENERATED WITH generate-main-exports
 // ⚠️ Warning: Do not edit by hand, all changes will be lost on next execution!
 
+import { capitalizeFirstLetter } from './capitalizeFirstLetter';
 import { string_keyword } from './IKeywords';
 import { IKeywords } from './IKeywords';
 import { nameToUriPart } from './nameToUriPart';
@@ -18,5 +19,6 @@ searchKeywords,
 string_keyword,
 removeDiacritics,
 normalizeToCamelCase,
+capitalizeFirstLetter,
 normalizeToSCREAMING_CASE
 };
