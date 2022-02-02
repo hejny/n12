@@ -1,4 +1,4 @@
-# String normalization library **n12**
+# 🧹 String normalization library **n12**
 
 <!--Badges-->
 
