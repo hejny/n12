@@ -15,4 +15,10 @@ describe('how normalizing to camelCase works', () => {
         expect(normalizeToCamelCase('hello.world')).toEqual('helloWorld');
         expect(normalizeToCamelCase('hello\nworld')).toEqual('helloWorld');
     });
+
+    it('can normalize word with numbers', () => {
+        expect(normalizeToCamelCase('4STORY')).toEqual('4story');
+        expect(normalizeToCamelCase('4Story')).toEqual('4story');
+        expect(normalizeToCamelCase('Karel21')).toEqual('karel21');
+    });
 });

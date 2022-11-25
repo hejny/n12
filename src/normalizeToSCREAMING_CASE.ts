@@ -9,7 +9,6 @@ expect(encodeRoutePath({ uriId: 'VtG7sR9rRJqwNEdM2', name: '  ahoj  ' })).toEqua
 expect(encodeRoutePath({ uriId: 'VtG7sR9rRJqwNEdM2', name: '  ahoj_ahojAhoj    ahoj  ' })).toEqual('/VtG7sR9rRJqwNEdM2/ahoj-ahoj-ahoj-ahoj');
 */
 
-
 export function normalizeToSCREAMING_CASE(
     name: string /* TODO: maybe semantic helper */,
 ): string /* TODO: maybe semantic helper */ {
@@ -40,7 +39,9 @@ export function normalizeToSCREAMING_CASE(
 
         if (
             charType !== lastCharType &&
-            !(lastCharType === 'UPPERCASE' && charType === 'LOWERCASE')
+            !(lastCharType === 'UPPERCASE' && charType === 'LOWERCASE') &&
+            !(lastCharType === 'NUMBER') &&
+            !(charType === 'NUMBER')
         ) {
             normalizedName += '_';
         }
@@ -59,3 +60,7 @@ export function normalizeToSCREAMING_CASE(
 }
 
 type char_type = 'LOWERCASE' | 'UPPERCASE' | 'NUMBER' | 'SLASH' | 'OTHER';
+
+/**
+ * TODO: [🌺] Use some intermediate util splitWords
+ */

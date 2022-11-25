@@ -1,4 +1,3 @@
-
 export function normalizeToCamelCase(
     name: string /* TODO: maybe semantic helper */,
     // TODO: Options
@@ -32,9 +31,11 @@ export function normalizeToCamelCase(
             }
         } else if (
             charType !== lastCharType &&
-            !(charType === 'LOWERCASE' && lastCharType === 'UPPERCASE')
+            !(charType === 'LOWERCASE' && lastCharType === 'UPPERCASE') &&
+            !(lastCharType === 'NUMBER') &&
+            !(charType === 'NUMBER')
         ) {
-            normalizedChar = normalizedChar.toUpperCase(); //TODO: DRY
+            normalizedChar = normalizedChar.toUpperCase(); //TODO: [🌺] DRY
         }
 
         normalizedName += normalizedChar;
@@ -46,3 +47,7 @@ export function normalizeToCamelCase(
 }
 
 type char_type = 'LOWERCASE' | 'UPPERCASE' | 'NUMBER' | 'OTHER';
+
+/**
+ * TODO: [🌺] Use some intermediate util splitWords
+ */
