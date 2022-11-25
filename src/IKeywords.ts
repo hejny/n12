@@ -5,7 +5,6 @@
  * Words are splitted between multiple keywords @see IKeywords
  *
  * For example `"keyword"`
- * @collboard-modules-sdk
  */
 export type string_keyword = string;
 
@@ -13,7 +12,6 @@ export type string_keyword = string;
  * Semantic helper
  * Set of keywords @see string_keyword
  *
- * @collboard-modules-sdk
  */
 export type IKeywords = Set<string_keyword>;
 

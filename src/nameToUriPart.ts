@@ -1,8 +1,6 @@
 import { removeDiacritics } from './removeDiacritics';
 
-/**
- *
- */
+
 export function nameToUriPart(name: string): string {
     let uri = name;
     uri = removeDiacritics(uri);
