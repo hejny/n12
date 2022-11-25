@@ -1,4 +1,8 @@
-
+/**
+ * Capitalize first letter and lowercase rest
+ *
+ * @sample "hElló" -> "Helló"
+ */
 export function capitalizeFirstLetter(word: string): string {
-    return word.substr(0, 1).toUpperCase() + word.substr(1).toLowerCase();
+    return toUpperCase(word.substr(0, 1)) + toLowerCase(word.substr(1));
 }
