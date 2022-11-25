@@ -16,11 +16,6 @@
         "suppressImplicitAnyIndexErrors": true,
         "esModuleInterop": true
     },
-    "include": [
-        "src",
-        "test/normalize-to-kebab-case.test.ts",
-        "test/decapitalize.test.ts",
-        "test/normalizeWhitespaces.test.ts"
-    ],
+    "include": ["src"],
     "exclude": ["dist"]
 }
