@@ -8,6 +8,7 @@ import { nameToUriPart } from './nameToUriPart';
 import { normalizeToCamelCase } from './normalizeToCamelCase';
 import { normalizeToSCREAMING_CASE } from './normalizeToSCREAMING_CASE';
 import { parseKeywords } from './parseKeywords';
+import { parseKeywordsFromString } from './parseKeywordsFromString';
 import { removeDiacritics } from './removeDiacritics';
 import { searchKeywords } from './searchKeywords';
 
@@ -20,5 +21,6 @@ string_keyword,
 removeDiacritics,
 normalizeToCamelCase,
 capitalizeFirstLetter,
+parseKeywordsFromString,
 normalizeToSCREAMING_CASE
 };

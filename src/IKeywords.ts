@@ -11,8 +11,12 @@ export type string_keyword = string;
 
 /**
  * Semantic helper
- * Array of keywords @see string_keyword
+ * Set of keywords @see string_keyword
  *
  * @collboard-modules-sdk
  */
-export type IKeywords = string_keyword[];
+export type IKeywords = Set<string_keyword>;
+
+/**
+ * TODO: [🌮] Keywords with weight
+ */
