@@ -9,7 +9,7 @@ export function searchKeywords(
 ): boolean {
     for (const needleWord of needle) {
         if (
-            !haystack.some(
+            ![...haystack].some(
                 (haystackWord) =>
                     haystackWord.substring(0, needleWord.length) === needleWord,
             )
