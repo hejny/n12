@@ -2,6 +2,7 @@
 // ⚠️ Warning: Do not edit by hand, all changes will be lost on next execution!
 
 import { capitalizeFirstLetter } from './capitalizeFirstLetter';
+import { DIACRITIC_VARIANTS_LETTERS } from './DIACRITIC_VARIANTS_LETTERS';
 import { string_keyword } from './IKeywords';
 import { IKeywords } from './IKeywords';
 import { nameToUriPart } from './nameToUriPart';
@@ -22,5 +23,6 @@ removeDiacritics,
 normalizeToCamelCase,
 capitalizeFirstLetter,
 parseKeywordsFromString,
-normalizeToSCREAMING_CASE
+normalizeToSCREAMING_CASE,
+DIACRITIC_VARIANTS_LETTERS
 };
