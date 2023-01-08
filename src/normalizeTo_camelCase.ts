@@ -1,3 +1,6 @@
+/* tslint:disable */
+/* TODO: Enable TSLint */
+
 export function normalizeTo_camelCase(
     sentence: string,
     __firstLetterCapital = false,
