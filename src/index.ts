@@ -1,14 +1,17 @@
 // 🏭 GENERATED WITH generate-main-exports
 // ⚠️ Warning: Do not edit by hand, all changes will be lost on next execution!
 
-import { DIACRITIC_VARIANTS_LETTERS } from './DIACRITIC_VARIANTS_LETTERS';
-import { IKeywords, string_keyword } from './IKeywords';
 import { capitalize } from './capitalize';
 import { decapitalize } from './decapitalize';
+import { DIACRITIC_VARIANTS_LETTERS } from './DIACRITIC_VARIANTS_LETTERS';
+import { string_keyword } from './IKeywords';
+import { IKeywords } from './IKeywords';
 import { nameToUriPart } from './nameToUriPart';
 import { normalizeToKebabCase } from './normalize-to-kebab-case';
-import { normalizeToSCREAMING_CASE } from './normalizeTo_SCREAMING_CASE';
-import { normalizeToCamelCase } from './normalizeTo_camelCase';
+import { normalizeTo_camelCase } from './normalizeTo_camelCase';
+import { normalizeTo_PascalCase } from './normalizeTo_PascalCase';
+import { normalizeTo_SCREAMING_CASE } from './normalizeTo_SCREAMING_CASE';
+import { normalizeTo_snake_case } from './normalizeTo_snake_case';
 import { normalizeWhitespaces } from './normalizeWhitespaces';
 import { parseKeywords } from './parseKeywords';
 import { parseKeywordsFromString } from './parseKeywordsFromString';
@@ -16,18 +19,20 @@ import { removeDiacritics } from './removeDiacritics';
 import { searchKeywords } from './searchKeywords';
 
 export {
-    IKeywords,
-    capitalize,
-    decapitalize,
-    parseKeywords,
-    nameToUriPart,
-    searchKeywords,
-    string_keyword,
-    removeDiacritics,
-    normalizeWhitespaces,
-    normalizeToCamelCase,
-    normalizeToKebabCase,
-    parseKeywordsFromString,
-    normalizeToSCREAMING_CASE,
-    DIACRITIC_VARIANTS_LETTERS,
+IKeywords,
+capitalize,
+decapitalize,
+parseKeywords,
+nameToUriPart,
+searchKeywords,
+string_keyword,
+removeDiacritics,
+normalizeWhitespaces,
+normalizeToKebabCase,
+normalizeTo_camelCase,
+normalizeTo_snake_case,
+normalizeTo_PascalCase,
+parseKeywordsFromString,
+normalizeTo_SCREAMING_CASE,
+DIACRITIC_VARIANTS_LETTERS
 };
