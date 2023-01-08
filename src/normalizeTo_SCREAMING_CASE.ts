@@ -9,15 +9,13 @@ expect(encodeRoutePath({ uriId: 'VtG7sR9rRJqwNEdM2', name: '  ahoj  ' })).toEqua
 expect(encodeRoutePath({ uriId: 'VtG7sR9rRJqwNEdM2', name: '  ahoj_ahojAhoj    ahoj  ' })).toEqual('/VtG7sR9rRJqwNEdM2/ahoj-ahoj-ahoj-ahoj');
 */
 
-export function normalizeToSCREAMING_CASE(
-    name: string /* TODO: maybe semantic helper */,
-): string /* TODO: maybe semantic helper */ {
+export function normalizeTo_SCREAMING_CASE(sentence: string): string {
     let charType: char_type;
     let lastCharType: char_type = 'OTHER';
 
     let normalizedName = '';
 
-    for (const char of name) {
+    for (const char of sentence) {
         let normalizedChar: string;
 
         if (/^[a-z]$/.test(char)) {

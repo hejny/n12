@@ -1,5 +1,5 @@
 import { IKeywords } from './IKeywords';
-import { normalizeToSCREAMING_CASE } from './normalizeToSCREAMING_CASE';
+import { normalizeTo_SCREAMING_CASE } from './normalizeTo_SCREAMING_CASE';
 import { removeDiacritics } from './removeDiacritics';
 
 /**
@@ -10,7 +10,7 @@ import { removeDiacritics } from './removeDiacritics';
  */
 
 export function parseKeywordsFromString(input: string): IKeywords {
-    const keywords = normalizeToSCREAMING_CASE(removeDiacritics(input))
+    const keywords = normalizeTo_SCREAMING_CASE(removeDiacritics(input))
         .toLowerCase()
         .split(/[^a-z0-9]+/gs)
         .filter((value) => value);

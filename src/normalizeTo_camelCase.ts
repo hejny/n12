@@ -1,14 +1,13 @@
-export function normalizeToCamelCase(
-    name: string /* TODO: maybe semantic helper */,
-    // TODO: Options
-    firstLetterCapital = false,
-): string /* TODO: maybe semantic helper */ {
+export function normalizeTo_camelCase(
+    sentence: string,
+    __firstLetterCapital = false,
+): string {
     let charType: char_type;
     let lastCharType: char_type | null = null;
 
     let normalizedName = '';
 
-    for (const char of name) {
+    for (const char of sentence) {
         let normalizedChar: string;
 
         if (/^[a-z]$/.test(char)) {
@@ -26,7 +25,7 @@ export function normalizeToCamelCase(
         }
 
         if (!lastCharType) {
-            if (firstLetterCapital) {
+            if (__firstLetterCapital) {
                 normalizedChar = normalizedChar.toUpperCase(); //TODO: DRY
             }
         } else if (

@@ -3,17 +3,15 @@
 
 import { removeDiacritics } from './removeDiacritics';
 
-export function normalizeToKebabCase(
-    name: string /* TODO: Probably semantic helper */,
-): string /* TODO: Probably semantic helper */ {
-    name = removeDiacritics(name);
+export function normalizeToKebabCase(sentence: string): string {
+    sentence = removeDiacritics(sentence);
 
     let charType: char_type;
     let lastCharType: char_type = 'OTHER';
 
     let normalizedName = '';
 
-    for (const char of name) {
+    for (const char of sentence) {
         let normalizedChar: string;
 
         if (/^[a-z]$/.test(char)) {
