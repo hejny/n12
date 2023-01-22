@@ -1,7 +1,7 @@
 {
     "name": "n12",
     "version": "1.3.0",
-    "description": "I am open to pull requests, feedback, and suggestions. Or if you like this utility, you can ☕ buy me a coffee or donate via cryptocurrencies.",
+    "description": "Normalization library for strings",
     "author": "Pavol Hejný <pavol@collboard.com> (https://pavolhejny.com)",
     "license": "SEE LICENSE IN LICENSE",
     "repository": {
