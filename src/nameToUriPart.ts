@@ -1,11 +1,12 @@
 import { removeDiacritics } from './removeDiacritics';
 
-
 export function nameToUriPart(name: string): string {
-    let uri = name;
-    uri = removeDiacritics(uri);
-    uri = uri.replace(/[^a-zA-Z0-9]+/g, '-');
-    uri = uri.replace(/^-+/, '');
-    uri = uri.replace(/-+$/, '');
-    return uri;
+    let uriPart = name;
+
+    uriPart = uriPart.toLowerCase();
+    uriPart = removeDiacritics(uriPart);
+    uriPart = uriPart.replace(/[^a-zA-Z0-9]+/g, '-');
+    uriPart = uriPart.replace(/^-+/, '');
+    uriPart = uriPart.replace(/-+$/, '');
+    return uriPart;
 }
