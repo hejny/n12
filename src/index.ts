@@ -4,8 +4,7 @@
 import { capitalize } from './capitalize';
 import { decapitalize } from './decapitalize';
 import { DIACRITIC_VARIANTS_LETTERS } from './DIACRITIC_VARIANTS_LETTERS';
-import { string_keyword } from './IKeywords';
-import { IKeywords } from './IKeywords';
+import { IKeywords, string_keyword } from './IKeywords';
 import { nameToUriPart } from './nameToUriPart';
 import { nameToUriParts } from './nameToUriParts';
 import { normalizeToKebabCase } from './normalize-to-kebab-case';
@@ -20,21 +19,21 @@ import { removeDiacritics } from './removeDiacritics';
 import { searchKeywords } from './searchKeywords';
 
 export {
-IKeywords,
-capitalize,
-decapitalize,
-parseKeywords,
-nameToUriPart,
-searchKeywords,
-nameToUriParts,
-string_keyword,
-removeDiacritics,
-normalizeWhitespaces,
-normalizeToKebabCase,
-normalizeTo_camelCase,
-normalizeTo_snake_case,
-normalizeTo_PascalCase,
-parseKeywordsFromString,
-normalizeTo_SCREAMING_CASE,
-DIACRITIC_VARIANTS_LETTERS
+  IKeywords,
+  capitalize,
+  decapitalize,
+  parseKeywords,
+  nameToUriPart,
+  searchKeywords,
+  nameToUriParts,
+  string_keyword,
+  removeDiacritics,
+  normalizeWhitespaces,
+  normalizeToKebabCase,
+  normalizeTo_camelCase,
+  normalizeTo_snake_case,
+  normalizeTo_PascalCase,
+  parseKeywordsFromString,
+  normalizeTo_SCREAMING_CASE,
+  DIACRITIC_VARIANTS_LETTERS
 };
