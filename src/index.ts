@@ -6,6 +6,7 @@ import { decapitalize } from './decapitalize';
 import { DIACRITIC_VARIANTS_LETTERS } from './DIACRITIC_VARIANTS_LETTERS';
 import { string_keyword } from './IKeywords';
 import { IKeywords } from './IKeywords';
+import { isValidKeyword } from './isValidKeyword';
 import { nameToUriPart } from './nameToUriPart';
 import { nameToUriParts } from './nameToUriParts';
 import { normalizeToKebabCase } from './normalize-to-kebab-case';
@@ -27,6 +28,7 @@ parseKeywords,
 nameToUriPart,
 searchKeywords,
 nameToUriParts,
+isValidKeyword,
 string_keyword,
 removeDiacritics,
 normalizeWhitespaces,
