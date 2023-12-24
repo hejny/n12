@@ -22,7 +22,7 @@
         "develop": "tsc --watch",
         "preversion": "npm test && npm run lint && npm run generate-main-exports-commit && npm run build && npm run documentation-commit",
         "postversion": "git push && git push --tags && npm publish",
-        "documentation": "typedoc --excludePrivate --hideGenerator --theme minimal --out docs --name \"Normalization library\" ./src",
+        "documentation": "typedoc --excludePrivate --hideGenerator --out docs --name \"Normalization library\" ./src",
         "documentation-commit": "git diff --exit-code && npm run documentation && git add docs && git commit --allow-empty -m \"Documentation\"",
         "test": "jest --config jestconfig.json",
         "test-watch": "jest --config jestconfig.json --watchAll",
