@@ -47,9 +47,7 @@ You can also ⭐ star the n12 package, [follow me on GitHub](https://github.com/
 ## ✨ Partners
 
 
-[![Collboard](https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png#gh-light-mode-only | height=60)![Collboard](https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png#gh-dark-mode-only | height=60)](https://collboard.com/)
-[![WebGPT](https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png#gh-light-mode-only | height=60)![WebGPT](https://webgpt.cz/_next/static/media/webgpt-white.7e7069eb.png#gh-dark-mode-only | height=60)](https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph)
-[![Promptbook](https://raw.githubusercontent.com/webgptorg/promptbook/main/other/design/logo.png#gh-light-mode-only | height=60)![Promptbook](https://raw.githubusercontent.com/webgptorg/promptbook/main/other/design/logo.png#gh-dark-mode-only | height=60)](https://github.com/webgptorg/promptbook)
+![Collboard](https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png#gh-light-mode-only)
 
 
 [Become a partner](https://www.pavolhejny.com/contact/)
