@@ -47,9 +47,9 @@ You can also ⭐ star the n12 package, [follow me on GitHub](https://github.com/
 ## ✨ Partners
 
 
-[![Collboard](https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png)](https://collboard.com/)
-[![WebGPT](https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png)](https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph)
-[![Promptbook](https://raw.githubusercontent.com/webgptorg/promptbook/main/other/design/logo.png)](https://github.com/webgptorg/promptbook)
+<a href="https://collboard.com/" title="Collboard"><img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png" alt="Collboard" height="60"></a>
+<a href="https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph" title="WebGPT"><img src="https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png" alt="WebGPT" height="60"></a>
+<a href="https://github.com/webgptorg/promptbook" title="Promptbook"><img src="https://raw.githubusercontent.com/webgptorg/promptbook/main/other/design/logo.png" alt="Promptbook" height="60"></a>
 
 
 [Become a partner](https://www.pavolhejny.com/contact/)
