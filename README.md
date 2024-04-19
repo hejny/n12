@@ -52,7 +52,8 @@ You can also ⭐ star the n12 package, [follow me on GitHub](https://github.com/
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph">
-  <img src="https://webgpt.cz/_next/static/media/webgpt-blue.e2bf1fff.png" alt="WebGPT logo" width="70"  />
+  <img src="https://webgpt.cz/_next/static/media/webgpt-blue.e2bf1fff.png#gh-light-mode-only" alt="WebGPT logo" width="70"  />
+  <img src="https://webgpt.cz//_next/static/media/webgpt-white.a9ea72c2.svg#gh-dark-mode-only" alt="WebGPT logo" width="70"  />
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://github.com/webgptorg/promptbook">
