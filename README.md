@@ -46,40 +46,10 @@ You can also ⭐ star the n12 package, [follow me on GitHub](https://github.com/
 
 ## ✨ Partners
 
----
 
-https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png
-https://webgpt.cz/_next/static/media/webgpt-white.7e7069eb.png
-
-
-![Logo-Light](#gh-dark-mode-only)![Logo-Dark](#gh-light-mode-only)
-
----
-
-
-![Logo-Mark-Light](https://webgpt.cz/_next/static/media/webgpt-white.7e7069eb.png#gh-dark-mode-only)![Logo-Mark-Dark](https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png#gh-light-mode-only)
-
----
-
-![GitHub-Mark-Light](#gh-light-mode-only)![GitHub-Mark-Dark](#gh-dark-mode-only)
-
----
-
-![GitHub-Mark-Light](https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png#gh-light-mode-only)![GitHub-Mark-Dark](https://webgpt.cz/_next/static/media/webgpt-white.7e7069eb.png#gh-dark-mode-only)
-
-
-
----
-
-![GitHub-Mark-Light](https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png#gh-light-mode-only)![GitHub-Mark-Dark](https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png#gh-dark-mode-only)
-
-
-
----
-
-![GitHub-Mark-Light](https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png#gh-dark-mode-only)![GitHub-Mark-Dark](https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png#gh-light-mode-only)
-
-
+[![Collboard](https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png)](https://collboard.com/)
+[![WebGPT](https://webgpt.cz/_next/static/media/webgpt-black.8d958d25.png)](https://webgpt.cz/?partner=ph&utm_medium=referral&utm_source=github-readme&utm_campaign=partner-ph)
+[![Promptbook](https://raw.githubusercontent.com/webgptorg/promptbook/main/other/design/logo.png)](https://github.com/webgptorg/promptbook)
 
 
 [Become a partner](https://www.pavolhejny.com/contact/)
