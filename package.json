@@ -41,5 +41,15 @@
         "tslint-config-prettier": "1.18.0",
         "typedoc": "0.22.11",
         "typescript": "4.3.4"
-    }
+    },
+    "funding": [
+        {
+            "type": "individual",
+            "url": "https://buymeacoffee.com/hejny"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/hejny/n12/blob/main/README.md#%EF%B8%8F-contributing"
+        }
+    ]
 }
