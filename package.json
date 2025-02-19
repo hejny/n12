@@ -1,6 +1,6 @@
 {
     "name": "n12",
-    "version": "1.8.115",
+    "version": "1.8.116",
     "description": "Normalization library for strings",
     "author": "Pavol Hejný <pavol@collboard.com> (https://pavolhejny.com)",
     "license": "Apache-2.0",
