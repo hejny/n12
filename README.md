@@ -8,8 +8,8 @@
 [![Quality of package String normalization library](https://packagequality.com/shield/n12.svg)](https://packagequality.com/#?package=n12)
 [![Known Vulnerabilities](https://snyk.io/test/github/hejny/n12/badge.svg)](https://snyk.io/test/github/hejny/n12)
 [![Issues](https://img.shields.io/github/issues/hejny/n12.svg?style=flat)](https://github.com/hejny/n12/issues)
-[![Socket](https://socket.dev/api/badge/npm/package/n12)](https://socket.dev/npm/package/n12)
 <!--[![License of String normalization library](https://img.shields.io/github/license/hejny/n12.svg?style=flat)](https://github.com/hejny/n12/blob/main/LICENSE)-->
+<!--[![Socket](https://socket.dev/api/badge/npm/package/n12)](https://socket.dev/npm/package/n12)-->
 
 <!--/Badges-->
 
