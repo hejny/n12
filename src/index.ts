@@ -20,22 +20,6 @@ import { removeDiacritics } from './removeDiacritics';
 import { searchKeywords } from './searchKeywords';
 
 export {
-  IKeywords,
   capitalize,
-  decapitalize,
-  parseKeywords,
-  nameToUriPart,
-  searchKeywords,
-  nameToUriParts,
-  isValidKeyword,
-  string_keyword,
-  removeDiacritics,
-  normalizeWhitespaces,
-  normalizeToKebabCase,
-  normalizeTo_camelCase,
-  normalizeTo_snake_case,
-  normalizeTo_PascalCase,
-  parseKeywordsFromString,
-  normalizeTo_SCREAMING_CASE,
-  DIACRITIC_VARIANTS_LETTERS
+  decapitalize, DIACRITIC_VARIANTS_LETTERS, IKeywords, isValidKeyword, nameToUriPart, nameToUriParts, normalizeTo_camelCase, normalizeTo_PascalCase, normalizeTo_SCREAMING_CASE, normalizeTo_snake_case, normalizeToKebabCase, normalizeWhitespaces, parseKeywords, parseKeywordsFromString, removeDiacritics, searchKeywords, string_keyword
 };
